@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#20E1E1E1"
+    tools:context=".ui.IdentifikasiPenyakitActivity">
+
+    <FrameLayout
+        android:id="@+id/ly_header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_header_rounded"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/baseline_arrow_back_24" />
+
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Scanning"
+                    android:id="@+id/tv_garden"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="Deteksi penyakit pada tanaman anda!"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_identifikasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Identifikasi Penyakit"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/rich_black"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <RelativeLayout
+                android:id="@+id/ly_nama_panyakit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_identifikasi"
+                android:background="@drawable/bg_rounded_10"
+                android:padding="8dp"
+               >
+
+                <TextView
+                    android:id="@+id/tv_title_nama_penyakit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Penyakit"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title_nama_penyakit"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_rounded_10"
+                    android:backgroundTint="@color/myrtle_green"
+                    android:padding="8dp">
+
+
+
+                    <TextView
+                        android:id="@+id/tv_nama_penyakit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Cercospora Leaf Spot"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_below="@+id/tv_nama_penyakit"
+                        android:id="@+id/tv_nama_lain_penyakit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        tools:text="(Bercak Daun Cercospora)"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_gejala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ly_nama_panyakit"
+                android:background="@drawable/bg_rounded_10"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_title_gejala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gejala"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title_gejala"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_rounded_10"
+                    android:backgroundTint="@color/myrtle_green"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_gejala"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        tools:text="Bercak kuning pada permukaan daun"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ly_solusi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ly_gejala"
+                android:background="@drawable/bg_rounded_10"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_title_solusi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Solusi"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title_solusi"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_rounded_10"
+                    android:backgroundTint="@color/myrtle_green"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_solusi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        tools:text="Pemangkasan daun yang terinfikasi untuk mengurangi penyebaran penyakit"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

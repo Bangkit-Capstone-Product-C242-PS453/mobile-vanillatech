@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/ly_form_login"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rounded"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_tulisan"/>
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edittext_rounded"
+            android:fontFamily="sans-serif"
+            android:hint="Enter Your Name"
+            android:padding="16dp"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/tv_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="Password"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edittext_rounded"
+            android:fontFamily="sans-serif"
+            android:inputType="textPassword"
+            app:passwordToggleEnabled="true"
+            android:hint="Enter Your Password"
+            android:padding="16dp"
+            android:textSize="16sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:text="Login"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/grey"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:id="@+id/btn_login"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/ly_form_login"
+        android:gravity="center|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jika belum memiliki akun,"
+            android:textSize="14sp"
+            android:id="@+id/tv_belum"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_klik_disini"
+            android:text="klik disini"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:layout_toEndOf="@+id/tv_belum"
+            android:layout_marginStart="4dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support By"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_above="@id/ly_logo"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_marginBottom="16dp"
+        android:id="@+id/ly_logo"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo_tut_wuri"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            app:srcCompat="@drawable/logo_tut_wuri" />
+
+        <ImageView
+            android:id="@+id/logo_umi_lama"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="4dp"
+            app:srcCompat="@drawable/logo_umi" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

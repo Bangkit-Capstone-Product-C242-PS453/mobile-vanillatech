@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">VaniiillaTech</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <integer-array name="data_banner">
+        <item>@drawable/gambar_banner</item>
+        <item>@drawable/gambar_banner</item>
+        <item>@drawable/gambar_banner</item>
+        <item>@drawable/gambar_banner</item>
+        <item>@drawable/gambar_banner</item>
+    </integer-array>
+
+    <integer-array name="data_foto_tanaman">
+        <item>@drawable/gambar_vanilla</item>
+        <item>@drawable/gambar_vanilla</item>
+        <item>@drawable/gambar_vanilla</item>
+        <item>@drawable/gambar_vanilla</item>
+        <item>@drawable/gambar_vanilla</item>
+        <item>@drawable/gambar_vanilla</item>
+    </integer-array>
+
+
+<!--    Data Produk Vanila-->
+    <integer-array name="data_gambar_produk_vanila">
+        <item>@drawable/produk_vanila1</item>
+        <item>@drawable/produk_vanila2</item>
+        <item>@drawable/produk_vanila3</item>
+        <item>@drawable/produk_vanila1</item>
+        <item>@drawable/produk_vanila2</item>
+        <item>@drawable/produk_vanila3</item>
+    </integer-array>
+
+    <string-array name="data_nama_produk_vanila">
+        <item>Bibit Vanila</item>
+        <item>Vanila Basah /Kg</item>
+        <item>Vanila Kering /Kg</item>
+        <item>Bibit Vanila</item>
+        <item>Vanila Basah /Kg</item>
+        <item>Vanila Kering /Kg</item>
+    </string-array>
+
+    <string-array name="data_harga_produk_vanila">
+        <item>Rp 5.000</item>
+        <item>Rp 105.000</item>
+        <item>Rp 200.000</item>
+        <item>Rp 5.000</item>
+        <item>Rp 105.000</item>
+        <item>Rp 200.000</item>
+    </string-array>
+
+<!--    Data Pupuk Kimia-->
+
+    <integer-array name="data_gambar_pupuk_kimia">
+        <item>@drawable/pupuk_kimia1</item>
+        <item>@drawable/pupuk_kimia2</item>
+        <item>@drawable/pupuk_kimia3</item>
+        <item>@drawable/pupuk_kimia1</item>
+        <item>@drawable/pupuk_kimia2</item>
+        <item>@drawable/pupuk_kimia3</item>
+
+    </integer-array>
+
+    <string-array name="data_nama_pupuk_kimia">
+        <item>Gyomax</item>
+        <item>Pupuk NPK</item>
+        <item>Vit Vanila</item>
+        <item>Gyomax</item>
+        <item>Pupuk NPK</item>
+        <item>Vit Vanila</item>
+    </string-array>
+
+    <string-array name="data_harga_pupuk_kimia">
+        <item>Rp 250.000</item>
+        <item>Rp 255.000</item>
+        <item>Rp 150.000</item>
+        <item>Rp 250.000</item>
+        <item>Rp 255.000</item>
+        <item>Rp 150.000</item>
+    </string-array>
+
+<!--    Data pupuk oraganik-->
+    <integer-array name="data_gambar_pupuk_organik">
+        <item>@drawable/pupuk_organik1</item>
+        <item>@drawable/pupuk_organik2</item>
+        <item>@drawable/pupuk_organik3</item>
+        <item>@drawable/pupuk_organik1</item>
+        <item>@drawable/pupuk_organik2</item>
+        <item>@drawable/pupuk_organik3</item>
+
+    </integer-array>
+
+    <string-array name="data_nama_pupuk_organik">
+        <item>Pupuk Organik Padat</item>
+        <item>Vanili Booster</item>
+        <item>Pupuk Kompos / 5Kg</item>
+        <item>Pupuk Organik Padat</item>
+        <item>Vanili Booster</item>
+        <item>Pupuk Kompos / 5Kg</item>
+    </string-array>
+
+    <string-array name="data_harga_pupuk_organik">
+        <item>Rp 35.000</item>
+        <item>Rp 35.000</item>
+        <item>Rp 110.000</item>
+        <item>Rp 35.000</item>
+        <item>Rp 35.000</item>
+        <item>Rp 110.000</item>
+    </string-array>
+
+<!--    Pestisida-->
+    <integer-array name="data_gambar_pestisida">
+        <item>@drawable/pestisida1</item>
+        <item>@drawable/pestisida2</item>
+        <item>@drawable/pestisida3</item>
+        <item>@drawable/pestisida1</item>
+        <item>@drawable/pestisida2</item>
+        <item>@drawable/pestisida3</item>
+
+    </integer-array>
+
+    <string-array name="data_nama_pestisida">
+        <item>Nolat</item>
+        <item>Booster Grosir</item>
+        <item>Bellvania Bonsai</item>
+        <item>Nolat</item>
+        <item>Booster Grosir</item>
+        <item>Bellvania Bonsai</item>
+    </string-array>
+
+    <string-array name="data_harga_pestisida">
+        <item>Rp 25.000</item>
+        <item>Rp 27.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 27.000</item>
+        <item>Rp 30.000</item>
+    </string-array>
+
+</resources>

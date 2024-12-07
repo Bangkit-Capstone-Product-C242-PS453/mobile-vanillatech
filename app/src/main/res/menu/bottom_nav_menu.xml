@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_keranjang"
+        android:icon="@drawable/ic_keranjang"
+        android:title="Cart" />
+    <item
+        android:id="@+id/nav_scan"
+        android:icon="@drawable/ic_scan"
+        android:title="Center"
+        android:layout_marginTop="10dp" />
+    <item
+        android:id="@+id/nav_konsul"
+        android:icon="@drawable/ic_konsultasi"
+        android:title="Medical" />
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/ic_profile"
+        android:title="User" />
+</menu>
