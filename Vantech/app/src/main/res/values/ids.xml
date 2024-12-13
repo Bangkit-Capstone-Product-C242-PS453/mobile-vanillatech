@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnAlamat" type="id" />
+    <item name="btnAkun" type="id" />
+    <item name="tv_akun" type="id" />
+</resources>
